@@ -17,13 +17,11 @@ array = [
 
 function series(prefixo, array)
 {
-    // Escreve sua função abaixo:
-    for (var i=0; i<array.length; i++){
-        //console.log(prefixo + array[i])
-        const formar = value => (prefixo.concat(array[i]))
-    }
-    var resultado = resultado.map(formar)
-    console.log(resultado)
+  // Escreve sua função abaixo:
+  for (item of array){
+    console.log(item);
+  }
+      
 }
 
 series(prefixo,array)
